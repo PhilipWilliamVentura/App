@@ -1,6 +1,6 @@
-import brainwave from "./TrainTuner.webp";
+import TrainTuner from "./TrainTuner.webp";
 import check from "./check.svg";
-import brainwaveSymbol from "./TrainTuner-symbol.webp";
+import TrainTunerSymbol from "./TrainTuner-symbol.webp";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
 import play from "./play.svg";
 import gradient from "./gradient.png";
@@ -8,7 +8,6 @@ import smallSphere from "./4-small.png";
 import grid from "./grid.png";
 import check2 from "./check-02.svg";
 import loading1 from "./loading-01.svg";
-import yourlogo from "./yourlogo.svg";
 import homeSmile from "./home-smile.svg";
 import file02 from "./file-02.svg";
 import searchMd from "./search-md.svg";
@@ -22,7 +21,7 @@ import loading from "./loading.png";
 import background from "./background.jpg";
 
 import curve from "./hero/curve.png";
-import robot from "./hero/robot.jpg";
+import front from "./hero/front.jpg";
 import heroBackground from "./hero/hero-background.jpg";
 
 import curve1 from "./collaboration/curve-1.svg";
@@ -52,7 +51,7 @@ import roadmap3 from "./roadmap/image-3.png";
 import roadmap4 from "./roadmap/image-4.png";
 import undone from "./roadmap/undone.svg";
 
-import notification1 from "./notification/image-1.png";
+import notification1 from "./notification/image-1.jpg";
 import notification2 from "./notification/image-2.png";
 import notification3 from "./notification/image-3.png";
 import notification4 from "./notification/image-4.png";
@@ -78,17 +77,16 @@ import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
 export {
-  brainwave,
+  TrainTuner,
   check,
   check2,
   loading1,
-  brainwaveSymbol,
+  TrainTunerSymbol,
   brainwaveWhiteSymbol,
   play,
   gradient,
   smallSphere,
   grid,
-  yourlogo,
   homeSmile,
   file02,
   searchMd,
@@ -101,7 +99,7 @@ export {
   loading,
   background,
   curve,
-  robot,
+  front,
   heroBackground,
   curve1,
   curve2,

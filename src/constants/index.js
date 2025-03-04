@@ -35,7 +35,6 @@ import {
   sport,
   telegram,
   twitter,
-  yourlogo,
 } from "../assets";
 
 export const navigation = [
@@ -77,15 +76,13 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
-
-export const brainwaveServices = [
+export const TrainTunerServices = [
   "Meals generating",
   "Tastefulness enhance",
   "Calories calculated",
 ];
 
-export const brainwaveServicesIcons = [
+export const TrainTunerServicesIcons = [
   recording03,
   recording01,
   disc02,
@@ -96,34 +93,34 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
+    title: "Music synchronization",
+    text: "Enable playists to match your workout, intensity and mood, creating the perfect ambiance.",
+    date: "May 2025",
     status: "done",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
+    title: "Dashboard",
+    text: "Add a statistical dashboard displaying your meals and workouts performed in the last week.",
+    date: "May 2025",
     status: "progress",
     imageUrl: roadmap2,
   },
   {
     id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
-    status: "done",
+    title: "User customization",
+    text: "Allow users to create their own exercices, fully customizing and tracking their personalised workout.",
+    date: "May 2025",
+    status: "progress",
     imageUrl: roadmap3,
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
+    title: "Community support",
+    text: "Engage with our community, fitness influencers and brands to promote a healthy lifestyle.",
+    date: "May 2025",
     status: "progress",
     imageUrl: roadmap4,
   },
