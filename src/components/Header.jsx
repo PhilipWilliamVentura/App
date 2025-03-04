@@ -7,7 +7,7 @@ import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
 import { HamburgerMenu } from "./design/Header";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const pathname = useLocation();
@@ -40,7 +40,6 @@ const Header = () => {
         <a className="block w-[12rem] xl:mr-8" href="#hero">
           <img src={TrainTuner} width={50} height={20} alt="TrainTuner" />
         </a>
-
         <nav
           className={`${
             openNavigation ? "flex" : "hidden"
@@ -67,17 +66,17 @@ const Header = () => {
 
           <HamburgerMenu />
         </nav>
-
-        <a
-          href="#form"
+        <Link
+          to="/sign-up"
           className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
         >
           New account
-        </a>
-        <Button className="hidden lg:flex" href="#login">
-          Sign in
+        </Link>
+        <Button className="hidden lg:flex">
+          <Link to="/sign-in" className="w-full h-full text-inherit">
+            Sign in
+          </Link>
         </Button>
-
         <Button
           className="ml-auto lg:hidden"
           px="px-3"

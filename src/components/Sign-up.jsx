@@ -1,9 +1,9 @@
 import React from "react";
 import Section from "./Section";
 
-function Form() {
+function Signup() {
   return (
-    <Section id="form">
+    <Section id="sign-up">
       <div style={{ backgroundColor: "pink", color: "black" }}>
         <h1>Form Component</h1>
       </div>
@@ -11,4 +11,4 @@ function Form() {
   );
 }
 
-export default Form;
+export default Signup;
