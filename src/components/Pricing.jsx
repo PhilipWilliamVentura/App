@@ -28,8 +28,8 @@ const Pricing = () => {
         </div>
 
         <Heading
-          tag="Get started with Brainwave"
-          title="Pay once, use forever"
+          tag="Get started with TrainTuner"
+          title="Get Premium To Unlock Key Features - Pay Once, Keep Forever"
         />
 
         <div className="relative">

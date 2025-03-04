@@ -1,27 +1,29 @@
 import {
+  audiowaves,
   benefitIcon1,
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
+  benefitIcon5,
+  benefitIcon6,
   benefitImage2,
   chromecast,
   disc02,
-  discord,
   discordBlack,
+  dish,
   facebook,
-  figma,
   file02,
-  framer,
+  dumbbell,
+  headphones,
+  healthymeal,
+  heart,
   homeSmile,
   instagram,
   notification2,
   notification3,
   notification4,
-  notion,
-  photoshop,
+  phoneapp,
   plusSquare,
-  protopie,
-  raindrop,
   recording01,
   recording03,
   roadmap1,
@@ -29,8 +31,8 @@ import {
   roadmap3,
   roadmap4,
   searchMd,
-  slack,
   sliders04,
+  sport,
   telegram,
   twitter,
   yourlogo,
@@ -78,9 +80,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Meals generating",
+  "Tastefulness enhance",
+  "Calories calculated",
 ];
 
 export const brainwaveServicesIcons = [
@@ -128,13 +130,12 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "With smart automation and top-notch tracking, it's the perfect solution for health enthusiasts to start their journey!";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Free and easy tool",
   },
   {
     id: "1",
@@ -142,65 +143,65 @@ export const collabContent = [
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Top-notch tracking",
   },
 ];
 
 export const collabApps = [
   {
     id: "0",
-    title: "Figma",
-    icon: figma,
-    width: 26,
-    height: 36,
-  },
-  {
-    id: "1",
-    title: "Notion",
-    icon: notion,
+    title: "Phoneapp",
+    icon: phoneapp,
     width: 34,
     height: 36,
   },
   {
+    id: "1",
+    title: "Audiowaves",
+    icon: audiowaves,
+    width: 36,
+    height: 38,
+  },
+  {
     id: "2",
-    title: "Discord",
-    icon: discord,
+    title: "Dish",
+    icon: dish,
     width: 36,
     height: 28,
   },
   {
     id: "3",
-    title: "Slack",
-    icon: slack,
+    title: "Headphones",
+    icon: headphones,
     width: 34,
     height: 35,
   },
   {
     id: "4",
-    title: "Photoshop",
-    icon: photoshop,
-    width: 34,
-    height: 34,
+    title: "Sport",
+    icon: sport,
+    width: 36,
+    height: 36,
   },
   {
     id: "5",
-    title: "Protopie",
-    icon: protopie,
+    title: "Heart",
+    icon: heart,
     width: 34,
     height: 34,
   },
   {
     id: "6",
-    title: "Framer",
-    icon: framer,
-    width: 26,
+    title: "Dumbbell",
+    icon: dumbbell,
+    width: 34,
     height: 34,
   },
   {
     id: "7",
-    title: "Raindrop",
-    icon: raindrop,
-    width: 38,
+    title: "Healthymeal",
+    icon: healthymeal,
+    width: 36,
     height: 32,
   },
 ];
@@ -209,34 +210,24 @@ export const pricing = [
   {
     id: "0",
     title: "Basic",
-    description: "AI chatbot, personalized recommendations",
+    description: "The starter kit for anyone taking their health seriously",
     price: "0",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
+      "An optimized workout tracker personalized for your training",
+      "Music integration, synchronizing your playlist to your workouts",
       "Ability to explore the app and its features without any cost",
     ],
   },
   {
     id: "1",
     title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
+    description:
+      "Advanced fitness features, allowing you to take your health to the next level",
     price: "9.99",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
+      "A meal planner designed to fit your needs and track your calories",
+      "A workout tracker and music generation fitting your mood",
       "Priority support to solve issues quickly",
-    ],
-  },
-  {
-    id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
     ],
   },
 ];
@@ -244,16 +235,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Smart Workout Tracker",
+    text: "Take control of your workout, tracking your improvements with ease - Log your lifts, monitor progress, and stay consistent!",
     backgroundUrl: "assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Meal Planning Made Easy",
+    text: "Fuel your body with personalized meal prep guidance, finally controlling your calorie intake",
     backgroundUrl: "assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,16 +252,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Music That Moves You",
+    text: "Get the perfect playlist to match your energy and intensity",
     backgroundUrl: "assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Improve Everyday",
+    text: "The app uses intuitive features to understand user queries and provide accurate and relevant responses",
     backgroundUrl: "assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -278,18 +269,18 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
+    title: "Ask Anything",
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
     backgroundUrl: "assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
+    iconUrl: benefitIcon5,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "About Us",
+    text: "Passionate fitness developers dedicated to empowering gym enthusiasts with the tools they need to train smarter and achieve their goals",
     backgroundUrl: "assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
+    iconUrl: benefitIcon6,
     imageUrl: benefitImage2,
   },
 ];

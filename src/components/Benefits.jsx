@@ -10,8 +10,8 @@ const Benefits = () => {
     <Section id="features">
       <div className="container relative z-2">
         <Heading
-          className="md:max-w-md lg:max-w-2xl"
-          title="Chat Smarter, Not Harder with Brainwave"
+          className="md:max-w-md lg:max-w-2xl justify-center"
+          title="No more guesswork—just results. Train smarter, eat better, and stay motivated with TrainTuner"
         />
 
         <div className="flex flex-wrap gap-10 mb-10">
@@ -26,12 +26,11 @@ const Benefits = () => {
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
                 <h5 className="h5 mb-5">{item.title}</h5>
                 <p className="body-2 mb-6 text-n-3">{item.text}</p>
-                <div className="flex items-center mt-auto">
+                <div className="flex items-center mt-auto overflow-hidden">
                   <img
                     src={item.iconUrl}
-                    width={48}
-                    height={48}
                     alt={item.title}
+                    className="w-12 h-12 object-cover max-w-12 max-h-12 flex-shrink-0 m-0 p-0 border-0 outline-none"
                   />
                   <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
                     Explore more

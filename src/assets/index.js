@@ -1,6 +1,6 @@
-import brainwave from "./brainwave.svg";
+import brainwave from "./TrainTuner.webp";
 import check from "./check.svg";
-import brainwaveSymbol from "./brainwave-symbol.svg";
+import brainwaveSymbol from "./TrainTuner-symbol.webp";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
 import play from "./play.svg";
 import gradient from "./gradient.png";
@@ -27,18 +27,18 @@ import heroBackground from "./hero/hero-background.jpg";
 
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
-import discord from "./collaboration/discord.png";
-import figma from "./collaboration/figma.png";
-import framer from "./collaboration/framer.png";
-import notion from "./collaboration/notion.png";
-import photoshop from "./collaboration/photoshop.png";
-import protopie from "./collaboration/protopie.png";
-import raindrop from "./collaboration/raindrop.png";
-import slack from "./collaboration/slack.png";
+import dish from "./collaboration/dish.png";
+import phoneapp from "./collaboration/phoneapp.png";
+import dumbbell from "./collaboration/dumbbell.png";
+import audiowaves from "./collaboration/audiowaves.png";
+import sport from "./collaboration/sport.png";
+import heart from "./collaboration/heart.png";
+import healthymeal from "./collaboration/healthymeal.png";
+import headphones from "./collaboration/headphones.png";
 
-import service1 from "./services/service-1.png";
-import service2 from "./services/service-2.png";
-import service3 from "./services/service-3.png";
+import service1 from "./services/service-1.jpg";
+import service2 from "./services/service-2.webp";
+import service3 from "./services/service-3.webp";
 
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
@@ -63,11 +63,13 @@ import benefitCard3 from "./benefits/card-3.svg";
 import benefitCard4 from "./benefits/card-4.svg";
 import benefitCard5 from "./benefits/card-5.svg";
 import benefitCard6 from "./benefits/card-6.svg";
-import benefitIcon1 from "./benefits/icon-1.svg";
-import benefitIcon2 from "./benefits/icon-2.svg";
-import benefitIcon3 from "./benefits/icon-3.svg";
-import benefitIcon4 from "./benefits/icon-4.svg";
-import benefitImage2 from "./benefits/image-2.png";
+import benefitIcon1 from "./benefits/icon-1.png";
+import benefitIcon2 from "./benefits/icon-2.png";
+import benefitIcon3 from "./benefits/icon-3.png";
+import benefitIcon4 from "./benefits/icon-4.png";
+import benefitIcon5 from "./benefits/icon-5.png";
+import benefitIcon6 from "./benefits/icon-6.png";
+import benefitImage2 from "./benefits/image-2.avif";
 
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
@@ -103,14 +105,14 @@ export {
   heroBackground,
   curve1,
   curve2,
-  discord,
-  figma,
-  framer,
-  notion,
-  photoshop,
-  protopie,
-  raindrop,
-  slack,
+  dish,
+  phoneapp,
+  audiowaves,
+  dumbbell,
+  sport,
+  heart,
+  healthymeal,
+  headphones,
   service1,
   service2,
   service3,
@@ -138,6 +140,8 @@ export {
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
+  benefitIcon5,
+  benefitIcon6,
   benefitImage2,
   discordBlack,
   facebook,
