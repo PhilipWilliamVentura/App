@@ -11,7 +11,6 @@ import {
   disc02,
   discordBlack,
   dish,
-  facebook,
   file02,
   dumbbell,
   headphones,
@@ -33,8 +32,6 @@ import {
   searchMd,
   sliders04,
   sport,
-  telegram,
-  twitter,
 } from "../assets";
 
 export const navigation = [
@@ -61,7 +58,7 @@ export const navigation = [
   {
     id: "4",
     title: "New account",
-    url: "#signup",
+    url: "#form",
     onlyMobile: true,
   },
   {
@@ -291,26 +288,8 @@ export const socials = [
   },
   {
     id: "1",
-    title: "Twitter",
-    iconUrl: twitter,
-    url: "#",
-  },
-  {
-    id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
-  },
-  {
-    id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
-  },
-  {
-    id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
     url: "#",
   },
 ];

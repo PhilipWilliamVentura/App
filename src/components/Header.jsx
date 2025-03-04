@@ -7,6 +7,7 @@ import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
 import { HamburgerMenu } from "./design/Header";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
   const pathname = useLocation();
@@ -68,7 +69,7 @@ const Header = () => {
         </nav>
 
         <a
-          href="#signup"
+          href="#form"
           className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
         >
           New account

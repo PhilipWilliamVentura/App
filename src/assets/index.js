@@ -1,7 +1,7 @@
 import TrainTuner from "./TrainTuner.webp";
 import check from "./check.svg";
 import TrainTunerSymbol from "./TrainTuner-symbol.webp";
-import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
+import TrainTunerWhiteSymbol from "./TrainTuner-symbol-white.svg";
 import play from "./play.svg";
 import gradient from "./gradient.png";
 import smallSphere from "./4-small.png";
@@ -71,10 +71,7 @@ import benefitIcon6 from "./benefits/icon-6.png";
 import benefitImage2 from "./benefits/image-2.avif";
 
 import discordBlack from "./socials/discord.svg";
-import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
-import telegram from "./socials/telegram.svg";
-import twitter from "./socials/twitter.svg";
 
 export {
   TrainTuner,
@@ -82,7 +79,7 @@ export {
   check2,
   loading1,
   TrainTunerSymbol,
-  brainwaveWhiteSymbol,
+  TrainTunerWhiteSymbol,
   play,
   gradient,
   smallSphere,
@@ -142,8 +139,5 @@ export {
   benefitIcon6,
   benefitImage2,
   discordBlack,
-  facebook,
   instagram,
-  telegram,
-  twitter,
 };

@@ -32,16 +32,16 @@ const Services = () => {
               />
             </div>
 
-            <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Meal Planner</h4>
-              <p className="body-2 mb-[3rem] text-n-3">
+            <div className="relative z-1 max-w-[17rem] ml-auto p-6 rounded-lg bg-gradient-to-b from-black/80 to-gray-900 shadow-lg">
+              <h4 className="h4 mb-4 text-white">Meal Planner</h4>
+              <p className="body-2 mb-[3rem] text-gray-300">
                 TrainTuner creates meals according to your preferences
               </p>
-              <ul className="body-2">
+              <ul className="body-2 text-white">
                 {TrainTunerServices.map((item, index) => (
                   <li
                     key={index}
-                    className="flex items-start py-4 border-t border-n-6"
+                    className="flex items-start py-4 border-t border-gray-700"
                   >
                     <img width={24} height={24} src={check} />
                     <p className="ml-4">{item}</p>
