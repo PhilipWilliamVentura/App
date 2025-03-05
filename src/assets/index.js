@@ -73,6 +73,8 @@ import benefitImage2 from "./benefits/image-2.avif";
 import discordBlack from "./socials/discord.svg";
 import instagram from "./socials/instagram.svg";
 
+import accountbackground from "./forms/accountbackground.jpg";
+
 export {
   TrainTuner,
   check,
@@ -140,4 +142,5 @@ export {
   benefitImage2,
   discordBlack,
   instagram,
+  accountbackground,
 };
