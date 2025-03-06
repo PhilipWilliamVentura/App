@@ -5,11 +5,24 @@ import "react-datepicker/dist/react-datepicker.css";
 
 function Signup() {
   const [startDate, setStartDate] = useState(null);
-  const [fitnessLevel, setFitnessLevel] = useState("");
 
-  const handleFitnessLevelChange = (event) => {
-    setFitnessLevel(event.target.value);
+  const [formValues, setFormValues] = useState({
+    email: "",
+    username: "",
+    password: "",
+    dob: "",
+  });
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormValues({ ...formValues, [name]: value });
   };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(formValues);
+  };
+
   return (
     <div
       className="flex items-center justify-center h-screen bg-cover bg-center"
@@ -21,36 +34,38 @@ function Signup() {
         <h2 className="text-white text-2xl font-semibold text-center mb-6">
           Create an Account
         </h2>
-        <form className="flex flex-col space-y-4">
+        <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
           <input
             type="email"
             placeholder="Email"
             className="p-3 rounded-lg bg-gray-800 text-white outline-none focus:ring-2 focus:ring-blue-500"
+            name="email"
+            value={formValues.email}
+            onChange={handleInputChange}
+          />
+          <input
+            type="text"
+            placeholder="Username"
+            className="p-3 rounded-lg bg-gray-800 text-white outline-none focus:ring-2 focus:ring-blue-500"
+            name="username"
+            value={formValues.username}
+            onChange={handleInputChange}
           />
           <input
             type="password"
             placeholder="Password"
             className="p-3 rounded-lg bg-gray-800 text-white outline-none focus:ring-2 focus:ring-blue-500"
+            name="password"
+            value={formValues.password}
+            onChange={handleInputChange}
           />
           <DatePicker
             selected={startDate}
             onChange={(date) => setStartDate(date)}
             className="p-3 rounded-lg bg-gray-800 text-white outline-none focus:ring-2 focus:ring-blue-500 w-full"
             placeholderText="Select Date of Birth"
+            name="dob"
           />
-          <select
-            id="fitness-level"
-            value={fitnessLevel}
-            onChange={handleFitnessLevelChange}
-            className="p-3 rounded-lg bg-gray-800 text-white outline-none focus:ring-2 focus:ring-blue-500 w-full"
-          >
-            <option value="" disabled selected className="text-gray-800">
-              Select Fitness Level
-            </option>
-            <option value="beginner">Beginner</option>
-            <option value="intermediate">Intermediate</option>
-            <option value="advanced">Advanced</option>
-          </select>
           <label className="flex items-center text-white">
             <input type="checkbox" className="mr-2" />
             Remember me
